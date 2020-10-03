@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+gensim
+sklearn
+numpy
+git+git://github.com/e-tony/wefe
