@@ -3,4 +3,5 @@ uvicorn
 gensim
 sklearn
 numpy
+streamlit
 git+git://github.com/e-tony/wefe
