@@ -16,10 +16,11 @@ from src.debias_Lauscher2020 import debias_model
 from src.metrics import get_terms, get_metric
 
 
-LOCAL_ROOT = pathlib.Path(os.path.abspath('')).parent
+# LOCAL_ROOT = pathlib.Path(os.path.abspath('')).parent
 
 
-fasttext = FT.load_facebook_vectors(LOCAL_ROOT / "models" / "cc.en.25.bin")
+# fasttext = FT.load_facebook_vectors(LOCAL_ROOT / "models" / "cc.en.25.bin")
+fasttext = FT.load_facebook_vectors("/app/models/cc.en.25.bin")
 fasttext_deb = copy.deepcopy(fasttext)
 fasttext_deb.init_sims(replace=True)
 lookup = {"fastText": fasttext, "fastText debiased": fasttext_deb}
