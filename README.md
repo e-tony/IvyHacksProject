@@ -10,6 +10,8 @@ While algorithmic biases and inequalities are worsening by the day, technology a
 
 To bridge this divide, we wanted to design a solution that connects the two areas of expertise. humAIne provides an accessible platform that educates developers on ethics, and sociologists on AI, allowing them to speak the same language.
 
+![demo](https://github.com/e-tony/IvyHacksProject/blob/main/demo.gif)
+
 ## What it does
 
 The first key feature is a free visualizer where a user can select a machine learning model, a debiasing model, and evaluation metrics for any dataset of terms. When a user runs the bias-test, they see a visual representation and a simplified explanation of what these results mean.
