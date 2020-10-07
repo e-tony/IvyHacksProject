@@ -30,3 +30,7 @@ The biggest challenge we ran into was deciding on how to connect people with ver
 
 ## What's next for humAIne
 We want to add more models, debiasing methods, and metrics to create a "one-stop-shop" for anyone with and without technical knowledge to quickly and easily play around with Machine Learning and contribute to the conversation on Fair AI. 
+
+## Contributors
+
+Daid Ahmad Khan, Mark Huynh, Mia SeungEun Lee, Tornike Tsereteli
